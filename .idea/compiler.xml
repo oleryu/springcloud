@@ -6,12 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="erypeer-a" />
+        <module name="erypeer-b" />
+        <module name="erypeer-c" />
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="springcloud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="erypeer-a" target="1.8" />
+      <module name="erypeer-b" target="1.8" />
+      <module name="erypeer-c" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />

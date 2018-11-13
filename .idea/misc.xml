@@ -9,6 +9,12 @@
         <option value="$PROJECT_DIR$/erypeer-a/pom.xml" />
         <option value="$PROJECT_DIR$/erypeer-b/pom.xml" />
         <option value="$PROJECT_DIR$/erypeer-c/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-s1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-s2/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-s3/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-cluster-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-cluster-a/pom.xml" />
       </list>
     </option>
   </component>

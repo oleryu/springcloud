@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone : http://peer1:8000/eureka/,http://peer2:8001/eureka/,http://peer3:8002/eureka/
+    healthcheck:
+      enabled: true
+    instance:
+      lease-expiration-duration-in-seconds: 5
+      lease-renewal-interval-in-seconds: 10
+server:
+  port: 7999
+spring:
+  application:
+    name : MainEryPeer

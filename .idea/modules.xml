@@ -6,6 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/erypeer-b/erypeer-b.iml" filepath="$PROJECT_DIR$/erypeer-b/erypeer-b.iml" />
       <module fileurl="file://$PROJECT_DIR$/erypeer-c/erypeer-c.iml" filepath="$PROJECT_DIR$/erypeer-c/erypeer-c.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-cluster/eureka-cluster.iml" filepath="$PROJECT_DIR$/eureka-cluster/eureka-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-cluster-a/eureka-cluster-a.iml" filepath="$PROJECT_DIR$/eureka-cluster-a/eureka-cluster-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-cluster-client/eureka-cluster-client.iml" filepath="$PROJECT_DIR$/eureka-cluster-client/eureka-cluster-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-s1/eureka-s1.iml" filepath="$PROJECT_DIR$/eureka-s1/eureka-s1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-s2/eureka-s2.iml" filepath="$PROJECT_DIR$/eureka-s2/eureka-s2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-s3/eureka-s3.iml" filepath="$PROJECT_DIR$/eureka-s3/eureka-s3.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
     </modules>

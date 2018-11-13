@@ -4,11 +4,11 @@
     <file url="file://$PROJECT_DIR$/erypeer-a" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/erypeer-b" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/erypeer-c" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-cluster" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-cluster-a" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-cluster-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-s1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-s2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-s3" charset="UTF-8" />

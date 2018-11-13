@@ -1,4 +1,4 @@
-package xyz.oleryu.springcloud.eurekaclusterclient;
+package com.oleryu.springcloud.eurekaclustera;
 
 import com.netflix.discovery.DiscoveryManager;
 import org.springframework.beans.factory.annotation.Autowired;

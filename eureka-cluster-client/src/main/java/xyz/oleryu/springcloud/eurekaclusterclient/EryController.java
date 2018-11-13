@@ -1,18 +1,41 @@
 package xyz.oleryu.springcloud.eurekaclusterclient;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class EryController {
+    /**
+     * 实例化RestTemplate
+     * @return
+     */
+    @LoadBalanced
+    @Bean
+    public RestTemplate rest() {
+        return new RestTemplate();
+    }
 
+
+    @Autowired
+    RestTemplate restTemplate;
+
+    /**
+     * Rest服务端使用RestTemplate发起http请求,
+     * @return
+     */
+    @GetMapping(value = "/ery")
     @ResponseBody
-    @RequestMapping(value = "/hi",method = RequestMethod.GET)
-    public Ery hi(){
-        Ery ery = new Ery();
-        ery.setMsg("HI FROM A!");
+    public Ery ery(){
+//        Ery ery = new Ery();
+//        ery.setMsg("[CLIENT]Hi!");
+        Ery ery = restTemplate.getForObject("http://EryPeer/hi",Ery.class);
+
         return ery;
     }
+
 }

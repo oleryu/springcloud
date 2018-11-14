@@ -8,18 +8,7 @@ eureka:
       lease-expiration-duration-in-seconds: 5
       lease-renewal-interval-in-seconds: 10
 server:
-  port: 7991
+  port: 7888
 spring:
   application:
-    name : EryPeer
-info:
-  app.name: atguigu-microservicecloud
-  company.name: www.atguigu.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*" #暴露所有端点 默认是info,health
+    name : MainRibbonClient

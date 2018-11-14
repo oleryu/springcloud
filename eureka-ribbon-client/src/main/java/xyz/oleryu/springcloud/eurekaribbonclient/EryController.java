@@ -1,8 +1,6 @@
-package xyz.oleryu.springcloud.eurekaclusterclient;
+package xyz.oleryu.springcloud.eurekaribbonclient;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
